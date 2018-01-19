@@ -4,3 +4,13 @@
     /*flex-flow: row wrap;*/
     margin-top: 16px;
 }
+
+.blockSearch {
+    display: flex;
+}
+
+.blockSearch__block {
+    margin-left: 30px;
+    display: block;
+    margin-bottom: 20px;
+}

@@ -115,9 +115,10 @@ class App extends Component {
           <UpdateBooks currentBook={this.state.updatedBook} updateCurrentBook={this.updateBookObj.bind(this)} />
         </div>
         <div>
-
-          <SearchLine sortingList={this.sortList.bind(this)} />
-          <SortFields sortBy={this.sortParentBy.bind(this)}/>
+          <div className="blockSearch">
+            <div className="blockSearch__block"><SearchLine sortingList={this.sortList.bind(this)} /></div>
+            <div className="blockSearch__block"><SortFields className="blockSearch__block" sortBy={this.sortParentBy.bind(this)} /></div>
+          </div>
           <BooksList updateCurrentBook={this.updateBook.bind(this)} deleteCurrentBook={this.deleteBook.bind(this)} books={this.state.books}/>
         </div>
       </div>
