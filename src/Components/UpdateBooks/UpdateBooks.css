@@ -1,0 +1,15 @@
+.updateBooks {
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.updateBooks__block {
+    margin-top: 20px;
+}
+
+.updateBooks__button {
+    display: block;
+    width: 74px;
+    margin: 20px auto;
+}
